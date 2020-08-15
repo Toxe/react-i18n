@@ -1,4 +1,5 @@
 {
+    "current_language": "Current language: {{lang}}",
     "headline": "Headline",
     "paragraph": "A text paragraph.",
     "random": "Random number: {{number}}",

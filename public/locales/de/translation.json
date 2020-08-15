@@ -1,4 +1,5 @@
 {
+    "current_language": "Aktuelle Sprache: {{lang}}",
     "headline": "Überschrift",
     "paragraph": "Ein Textabsatz.",
     "random": "Eine Zufallszahl: {{number}}",
