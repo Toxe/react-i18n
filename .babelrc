@@ -6,6 +6,10 @@
         [
             "i18next-extract",
             {
+                "locales": [
+                    "en",
+                    "de"
+                ],
                 "outputPath": "public/locales/{{locale}}/{{ns}}.json"
             }
         ]
