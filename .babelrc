@@ -3,6 +3,11 @@
         "react-app"
     ],
     "plugins": [
-        "i18next-extract"
+        [
+            "i18next-extract",
+            {
+                "outputPath": "public/locales/{{locale}}/{{ns}}.json"
+            }
+        ]
     ]
 }
