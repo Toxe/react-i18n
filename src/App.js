@@ -1,5 +1,5 @@
 import React, { Suspense } from "react";
-import UsingHook from "./UsingHook";
+import UsingHook from "./Components/UsingHook";
 
 export default function App() {
     return (
