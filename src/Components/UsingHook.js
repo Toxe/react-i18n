@@ -14,6 +14,7 @@ export default function UsingHook() {
         <Component>
             <h3>{t("headline")}</h3>
             <p>{t("paragraph")}</p>
+            <p>{t("paragraph2")}</p>
         </Component>
     );
 }
