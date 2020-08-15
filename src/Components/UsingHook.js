@@ -15,8 +15,8 @@ export default function UsingHook() {
     return (
         <Component>
             <h3>[UsingHook] {t("headline")}</h3>
-            <p>{t("paragraph")}</p>
-            <p>{t("random", { number })}</p>
+            <div>{t("paragraph")}</div>
+            <div>{t("random", { number })}</div>
         </Component>
     );
 }

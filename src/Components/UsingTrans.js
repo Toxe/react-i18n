@@ -15,8 +15,8 @@ export default function UsingTrans() {
     return (
         <Component>
             <h3>[UsingTrans] <Trans>headline</Trans></h3>
-            <p><Trans>paragraph</Trans></p>
-            <p><Trans i18nKey="random">{{ number }}</Trans></p>
+            <div><Trans>paragraph</Trans></div>
+            <div><Trans i18nKey="random">{{ number }}</Trans></div>
         </Component>
     );
 }
