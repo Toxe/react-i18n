@@ -11,7 +11,8 @@
                     "de"
                 ],
                 "outputPath": "public/locales/{{locale}}/{{ns}}.json",
-                "discardOldKeys": true
+                "discardOldKeys": true,
+                "jsonSpace": 4
             }
         ]
     ]
