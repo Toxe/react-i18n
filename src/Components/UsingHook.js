@@ -1,6 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import { useTranslation } from "react-i18next";
+import { dice } from "../dice";
 
 const Component = styled.div`
     background-color: bisque;
@@ -9,12 +10,13 @@ const Component = styled.div`
 
 export default function UsingHook() {
     const { t } = useTranslation();
+    const number = dice();
 
     return (
         <Component>
-            <h3>{t("headline")}</h3>
+            <h3>[UsingHook] {t("headline")}</h3>
             <p>{t("paragraph")}</p>
-            <p>{t("paragraph2")}</p>
+            <p>{t("random", { number })}</p>
         </Component>
     );
 }

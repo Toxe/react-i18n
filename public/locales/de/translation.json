@@ -1,5 +1,5 @@
 {
     "headline": "Überschrift",
     "paragraph": "Ein Textabsatz.",
-    "paragraph2": "Ein zweiter Absatz."
+    "random": "Eine Zufallszahl: {{number}}"
 }

@@ -1,5 +1,5 @@
 {
     "headline": "Headline",
     "paragraph": "A text paragraph.",
-    "paragraph2": "A second paragraph."
+    "random": "Random number: {{number}}"
 }
