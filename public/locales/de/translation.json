@@ -1,4 +1,7 @@
 {
     "headline": "Überschrift",
-    "paragraph": "Ein Textabsatz."
+    "paragraph": "Ein Textabsatz.",
+    "random": "Eine Zufallszahl: {{number}}",
+    "you_got_mail": "Sie haben eine neue E-Mail.",
+    "you_got_mail_plural": "Sie haben {{mails}} neue E-Mails."
 }

@@ -1,4 +1,7 @@
 {
     "headline": "Headline",
-    "paragraph": "A text paragraph."
+    "paragraph": "A text paragraph.",
+    "random": "Random number: {{number}}",
+    "you_got_mail": "You got one new mail.",
+    "you_got_mail_plural": "You got {{mails}} new mails."
 }
