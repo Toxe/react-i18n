@@ -5,6 +5,10 @@ An example React i18n app that uses react-i18next.
 ## Dependencies
 
 - react-i18next
+- i18next
+- i18next-browser-languagedetector
+- i18next-http-backend
+- styled-components
 
 ## Running the application
 
