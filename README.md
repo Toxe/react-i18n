@@ -12,6 +12,12 @@ An example React i18n app that uses react-i18next.
 - Babel CLI
 - babel-plugin-i18next-extract
 
+## Extract translation keys from code
+
+```
+npm run i18n-extract
+```
+
 ## Running the application
 
 ```
