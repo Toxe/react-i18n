@@ -12,7 +12,6 @@ i18n.use(Backend)
         interpolation: {
             escapeValue: false,
         },
-        saveMissing: true,
     });
 
 export default i18n;
