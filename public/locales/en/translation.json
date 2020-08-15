@@ -1,5 +1,5 @@
 {
-    "current_language": "Current language: {{lang}}",
+    "current_language": "Current language: <strong>{{lang}}</strong>",
     "headline": "Headline",
     "paragraph": "A text paragraph.",
     "random": "Random number: {{number}}",

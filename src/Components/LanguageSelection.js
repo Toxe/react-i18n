@@ -1,6 +1,6 @@
 import React from 'react'
 import styled from "styled-components";
-import { useTranslation } from "react-i18next";
+import { useTranslation, Trans } from "react-i18next";
 
 const Div = styled.div`
     background-color: skyblue;
@@ -20,7 +20,7 @@ export default function LanguageSelection() {
                 <button type="button" onClick={() => handleClick("en")}>English</button>
                 <button type="button" onClick={() => handleClick("de")}>Deutsch</button>
             </div>
-            <div>{t("current_language", { lang: i18n.language })}</div>
+            <div><Trans i18nKey="current_language" values={{ lang: i18n.language }} components={{ strong: <strong /> }} /></div>
         </Div>
     )
 }
