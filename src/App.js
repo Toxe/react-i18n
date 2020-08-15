@@ -1,5 +1,10 @@
-import React from "react";
+import React, { Suspense } from "react";
+import UsingHook from "./UsingHook";
 
 export default function App() {
-    return <div>App</div>;
+    return (
+        <Suspense fallback="loading">
+            <UsingHook />
+        </Suspense>
+    );
 }
