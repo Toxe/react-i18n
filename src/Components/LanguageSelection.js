@@ -8,7 +8,7 @@ const Div = styled.div`
 `;
 
 export default function LanguageSelection() {
-    const { t, i18n } = useTranslation();
+    const { i18n } = useTranslation();
 
     const handleClick = (lang) => {
         i18n.changeLanguage(lang);
